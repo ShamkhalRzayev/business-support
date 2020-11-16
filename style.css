@@ -1,0 +1,79 @@
+html {
+    font-size: 16px;
+}
+
+.header {
+    height: 6rem;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-overflow: clip;
+    
+}
+
+.header .company-name {
+    font-size: 3rem;
+    margin: 0;
+    align-items: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.services h2 {
+    margin: 0;  
+    width:  100%;  
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.services div {
+    width: 30rem;
+    text-align: center;
+    background-color: blanchedalmond;
+    margin-top: 2rem;
+    height: 35rem;
+}
+
+.services .image {
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    margin: 0;
+}
+
+.services .image img {
+    width: 100%;
+    margin: 0;
+}
+
+.services .content {
+    width: 100%;
+    height: 40%;
+    margin-top: 00.7rem;
+}
+
+.services div h4 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.services div p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+.services div button {
+    margin-bottom: 1.3rem;
+    width: 93%;
+    padding: 00.7rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
